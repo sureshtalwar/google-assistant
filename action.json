@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "Aditya Mutual Funds"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+            "talk to Aditya Mutual Funds"
+          ]
+        }
+      }
+    }
+  ],
+  "conversations": {
+    "Aditya Mutual Fund": {
+      "name": "Aditya Mutual Funds",
+      "url": "https://65a76506.ngrok.io/fulfillment"
+    }
+  },
+  "locale": "en"
+}
